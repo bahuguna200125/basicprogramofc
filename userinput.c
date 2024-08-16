@@ -9,11 +9,11 @@ scanf("%d",&a);
     {
       printf( "it's raining ");
     }
-      if (a==2)
+     else if (a==2)
       {
           printf( "it's not raining ");
       }
-      else if (a>=3)
+      else
       {
           printf("%s", "it's wrong input");
       }
